@@ -9,3 +9,15 @@
     text-align: center;
     padding: 30px;
 }
+html {
+    scroll-behavior: smooth;
+}
+
+.scroll-btn {
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 20px;
+    background: #333;
+    color: white;
+    border-radius: 10px;
+}
