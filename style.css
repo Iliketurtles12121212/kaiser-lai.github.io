@@ -1,11 +1,16 @@
 .art-img {
-    width: 300px;
-    margin: 300px;
+    width: 1000%;
+    max-width: 10000px;
+    height: auto;
+    display: block;
+    margin: 30px auto;
     border-radius: 10px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    
 }
 
-.gallery {
+.scrollbox {
+    max-height: none;
+    overflow: visible; 
+    padding: 20px;
     text-align: center;
-    padding: 30px;
 }
