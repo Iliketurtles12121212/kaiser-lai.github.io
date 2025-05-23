@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Art Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .scrollbox {
+            max-height: 400px;
+            overflow-y: auto;
+            border: 2px solid #ccc;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        .art-img {
+            width: 1000px;
+            margin-bottom: 10px;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Art Gallery</h1>
+        <a href="index.html">← Back to Homepage</a>
+    </header>
+
+    <section class="gallery">
+        <h2>Featured Artworks</h2>
+        <div class="scrollbox">
+            <img src="kobe.jpg" alt="art 3" class="art-img">
+            <img src="IMG_1616.jpg" alt="art1" class="art-img">
+            <img src="IMG_1732 (1).jpg" alt="art2" class="art-img">
+        </div>
+    </section>
+</body>
+</html>

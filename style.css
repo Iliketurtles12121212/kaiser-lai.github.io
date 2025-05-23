@@ -1,0 +1,16 @@
+.art-img {
+    width: 1000%;
+    max-width: 10000px;
+    height: auto;
+    display: block;
+    margin: 30px auto;
+    border-radius: 10px;
+    
+}
+
+.scrollbox {
+    max-height: none;
+    overflow: visible; 
+    padding: 20px;
+    text-align: center;
+}
